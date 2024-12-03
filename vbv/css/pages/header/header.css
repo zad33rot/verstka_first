@@ -1,0 +1,52 @@
+.header {
+    position: relative;
+}
+
+.header__container {
+    padding-top: 38px;
+}
+
+.header__sales {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    color: var(--white);
+    background-color: var(--black);
+    font-size: 14px;
+
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.header__block-inf {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.block-inf__list {
+    display: flex;
+    gap: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.block-inf__list a {
+    color: var(--black);
+}
+
+.block-inf__menu {
+    display: flex;
+    gap: 14px;
+}
+
+.block-inf__search {
+    padding: 13px 17px;
+    border-radius: 62px;
+    background-color: var(--snow-flake);
+    font-size: 16px;
+    font-weight: 500;
+}

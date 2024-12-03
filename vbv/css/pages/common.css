@@ -1,0 +1,20 @@
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* ---------------------- */
+  
+  .main {
+    flex: 1 1 auto;
+  }
+  
+  [class*='__container'] {
+    max-width: 1239px;
+    margin: 0 auto;
+  }
